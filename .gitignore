@@ -1,0 +1,44 @@
+# macOS 系统生成的文件，不应被版本控制
+.DS_Store
+
+# 忽略所有子目录下的 node_modules
+**/node_modules/
+
+# Hexo 生成的静态网站文件目录，每次生成可能不同，不适合版本控制
+public/
+
+# Hexo 部署相关目录，无需版本控制
+.deploy*/
+
+# Hexo 的数据库文件，一般不需要版本控制
+db.json
+
+# 日志文件，通常无需版本控制
+*.log
+
+# Hexo 插件可能生成的文件或目录，根据实际情况调整
+._*
+thumbs/
+
+# 一些编辑器生成的临时交换文件
+*.swp
+
+# Hexo 主题目录下的临时文件或特定目录，可根据实际主题情况调整
+themes/*/.DS_Store
+themes/*/db.json
+themes/*/log/
+themes/*/.deploy*/
+themes/*/temp/
+themes/*/cache/
+
+# Hexo 生成的缓存文件目录
+.hexo/cache/
+
+# Hexo 生成的临时文件
+.hexo/tmp/
+
+# 插件相关
+plugins/*/cache/
+plugins/*/temp/
+
+.github/
