@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: hojun
-subtitle:
-description: 好少年光芒万丈
-keywords:
-author: hojun
+title: 唯一的净土
+subtitle: 这家伙很懒，什么也不想记录
+description: 喧闹世界、静默世界
+keywords: blog technology coding life
+author: jpruby
 language: zh-cn
-timezone:
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -38,12 +38,12 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
-highlight: 
+highlight:
   enable: false
   line_number: false
   auto_detect: false
   tab_replace:
-  
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -52,7 +52,7 @@ index_generator:
   path: ''
   per_page: 10
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -79,20 +79,20 @@ theme: Sakura
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: 
+  repo:
     # github: git@github.com:honjun/honjun.github.io.git
     # github: https://github.com/honjun/honjun.github.io.git
-    coding: https://git.coding.net/hojun/hojun.git
+    github: https://github.com/jpruby888/jpruby888.github.io.git
+    # coding: https://git.coding.net/hojun/hojun.git
   branch: master
 
 # backup
 backup:
   type: git
-  message: backup my blog of https://yourname.github.io/
+  # message: backup my blog of https://yourname.github.io/
   repository:
     # github: https://github.com/honjun/honjun.github.io.git,backup
-    coding: https://git.coding.net/hojun/hojun.git,backup
-
+    # coding: https://git.coding.net/hojun/hojun.git,backup
 #RSS
 feed:
   type: atom

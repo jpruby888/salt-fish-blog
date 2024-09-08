@@ -1,7 +1,24 @@
-.DS_Store
-Thumbs.db
-db.json
-*.log
-node_modules/
-public/
-.deploy*/
+
+# 以下是需要排除的文件和目录
+
+# macOS 系统创建的隐藏文件，用于存储自定义的文件夹属性
+.DS_Store  
+
+# Windows 系统生成的隐藏文件，用于存储图片的缩略图信息
+Thumbs.db  
+
+# 指定的 JSON 格式的数据库文件
+db.json  
+
+# 所有以.log 结尾的日志文件
+*.log  
+
+# Node.js 项目中的依赖模块目录
+node_modules/  
+
+# 可能是项目中的公共资源目录
+public/  
+
+# 以.deploy 开头的目录，可能与特定的部署相关
+.deploy*/  
+
